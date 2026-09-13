@@ -1,0 +1,13 @@
+# IntelliJ IDEA
+.idea/
+
+# Maven
+target/
+
+# Node
+node_modules/
+dist/
+
+# Environment files
+.env
+.env.*
