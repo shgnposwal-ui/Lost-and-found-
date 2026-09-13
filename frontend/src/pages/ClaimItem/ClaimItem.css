@@ -1,0 +1,130 @@
+.claim-page {
+    min-height: 100vh;
+    background: #f5f7fb;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+.claim-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 35px 40px;
+    border-radius: 12px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+}
+
+.claim-container h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #1f2937;
+}
+
+.claim-subtitle {
+    color: #6b7280;
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.claim-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px 30px;
+}
+
+.claim-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.claim-field label,
+.proof-section label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 8px;
+}
+
+.claim-field input,
+.claim-field textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 7px;
+    font-size: 14px;
+    outline: none;
+    font-family: Arial, sans-serif;
+}
+
+.claim-field input:focus,
+.claim-field textarea:focus {
+    border-color: #2563eb;
+}
+
+.claim-field textarea {
+    resize: none;
+}
+
+.proof-section {
+    margin-top: 25px;
+}
+
+.upload-box {
+    position: relative;
+    border: 2px dashed #d1d5db;
+    border-radius: 8px;
+    padding: 25px;
+    text-align: center;
+    cursor: pointer;
+    background: #fafafa;
+}
+
+.upload-icon {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.upload-box p {
+    margin: 5px 0;
+    font-weight: 600;
+    color: #374151;
+}
+
+.upload-box span {
+    display: block;
+    font-size: 13px;
+    color: #9ca3af;
+}
+
+.upload-box input {
+    margin-top: 15px;
+}
+
+.submit-claim {
+    width: 100%;
+    margin-top: 30px;
+    padding: 13px;
+    border: none;
+    border-radius: 7px;
+    background: #20b15a;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.submit-claim:hover {
+    background: #18964b;
+}
+
+@media (max-width: 700px) {
+
+    .claim-container {
+        padding: 25px 20px;
+    }
+
+    .claim-grid {
+        grid-template-columns: 1fr;
+    }
+}
