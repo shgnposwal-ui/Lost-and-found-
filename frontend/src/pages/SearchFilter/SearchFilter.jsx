@@ -1,8 +1,8 @@
-import wallet from "../assets/images/wallet.jpg";
-import bag from "../assets/images/bag.jpg";
-import phone from "../assets/images/phone.jpg";
+import wallet from "../../assets/images/wallet.jpg";
+import bag from "../../assets/images/bag.jpg";
+import phone from "../../assets/images/phone.jpg";
 import { useState } from "react";
-import SearchCard from "../components/SearchCard";
+import SearchCard from "../../components/SearchCard";
 
 function SearchFilter() {
 
